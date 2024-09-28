@@ -1,0 +1,82 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.tuner {
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.note-display {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.indicator {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  margin: 2rem auto;
+}
+
+.needle {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background-color: #ff4136;
+  bottom: 0;
+  left: 50%;
+  transform-origin: bottom center;
+  transition: transform 0.3s ease;
+}
+
+.needle.low { transform: rotate(-45deg); }
+.needle.high { transform: rotate(45deg); }
+.needle.in-tune { transform: rotate(0deg); }
+
+.scale {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.mark {
+  width: 4px;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+.mark.center { height: 30px; }
+
+.frequency-display {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #7fdbff;
+}
