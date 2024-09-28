@@ -22,7 +22,6 @@ A sleek and responsive guitar tuner web application built with **React** and **T
 
 - **Real-Time Pitch Detection**: Utilizes the Web Audio API and **Pitchfinder** library to access the microphone and detect the frequency of the played note.
 - **Visual Tuning Indicators**: Provides intuitive visual feedback indicating whether the note is too low, too high, or in tune.
-- **Note Selection**: Allows users to select which guitar string (E, A, D, G, B, E) they want to tune.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Demo
