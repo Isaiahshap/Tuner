@@ -27,8 +27,7 @@ A sleek and responsive guitar tuner web application built with **React** and **T
 
 ## Demo
 
-[Insert link to live demo or screenshots here.]
-
+https://youtu.be/ov3iWfXWFcw
 ---
 
 ## Getting Started
