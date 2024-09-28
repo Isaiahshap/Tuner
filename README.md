@@ -70,7 +70,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Select a String**:
 
-   - Click on the note corresponding to the guitar string you wish to tune (E2, A2, D3, G3, B3, E4).
+   - Play any note on your instrument 
 
 2. **Allow Microphone Access**:
 
@@ -80,9 +80,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    - Play the open string on your guitar.
    - The app will display:
-     - **Left Indicator (Red)**: The note is too low.
-     - **Right Indicator (Yellow)**: The note is too high.
-     - **Center Indicator (Green)**: The note is in tune.
+     - **Left Indicator **: The note is too low.
+     - **Right Indicator **: The note is too high.
+     - **Center Indicator **: The note is in tune.
 
 4. **Adjust Your Tuning**:
 
